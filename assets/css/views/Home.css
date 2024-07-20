@@ -1,8 +1,8 @@
  /* home */
 
  .home {
-     /* background-image: url('https://img.freepik.com/premium-photo/flat-lay-modern-workspace-with-computer-laptop-coffee-cup-book-black-table_35674-14741.jpg');
-     background-size: cover; */
+     /* background-image: url('https://img.freepik.com/premium-photo/flat-lay-modern-workspace-with-computer-laptop-coffee-cup-book-black-table_35674-14741.jpg'); */
+     /* background-size: cover; */
      /* Adjust the size to cover the container */
      background-position: center;
      display: grid;
@@ -14,6 +14,7 @@
  .home h2 {
      margin-block-start: 2em;
      font-size: 2.7em;
+     text-align: center;
      letter-spacing: .1em;
  }
 
