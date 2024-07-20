@@ -1,0 +1,74 @@
+.mail-nav {
+    padding: 1em;
+
+}
+
+.mail-nav .material-symbols-outlined {
+    /* border-radius: 50%; */
+    /* padding: .4em;    */
+}
+
+.mail-nav-content .material-symbols-outlined {
+    font-size: 18px;
+    /* background-color: aqua; */
+}
+
+.mail-nav-content {
+    position: absolute;
+    left: 0;
+    background-color: white;
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1); /* Add shadow to the button */
+
+}
+
+.mail-nav-content div {
+    cursor: pointer;
+    display: flex;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 2em;
+    align-items: center;
+}
+
+.mail-nav-content div:hover {
+    background-color: rgb(237, 237, 237);
+
+}
+
+.mail-nav-content div:active {
+    background-color: lightblue;
+    color: blue;
+}
+
+.mail-nav-content div>* {
+    margin-inline-start: 1em;
+    /* font-weight: lighter; */
+    color: rgb(62, 62, 62);
+    /* font-size: 1px; */
+
+}
+
+.mail-nav-content div> :nth-child(3n) {
+    font-size: 12px;
+    font-weight: bold;
+    padding-inline-start: 8em;
+}
+
+/* .mail-nav-content div::before{
+    content: '';
+    height: 1em;
+    width: 15em;
+    background-color: gray;
+    position: absolute;
+
+} */
+
+/* .mail-nav-content .material-symbols-outlned{
+    font-weight: lighter;
+
+ } */

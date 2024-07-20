@@ -1,0 +1,58 @@
+header {
+
+    background: rgb(232, 255, 151);
+    border-bottom: 2px solid white;
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.app-header h3 {
+    margin-inline-start: 2em;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.menu-header-btn {
+    margin-inline-end: 2em;
+    font-size: 40px;
+}
+
+.menu-container {
+    position: absolute;
+    right: 3em;
+    padding: 1em;
+    gap: 1em;
+    border: solid 2px black;
+    background-color: white;
+    border-radius: 1em;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.logo-img {
+    height: 3em;
+    width: 3em;
+}
+
+.logo {
+    gap: 1em;
+}
+
+/* nav a {
+    margin: .5em;
+}
+
+nav a:active {
+    color: purple;
+}
+
+nav a.active {
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: overline;
+} */

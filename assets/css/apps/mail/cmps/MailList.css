@@ -1,0 +1,10 @@
+ /* mail list */
+
+ .mail-list {
+     margin: 1em;
+     display: flex;
+     flex-direction: column;
+     /* gap: 1em; */
+     list-style: none;
+     padding: 0;
+ }

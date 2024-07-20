@@ -1,0 +1,34 @@
+.mail-compose {
+    margin: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr;
+}
+
+.mail-compose :first-child{
+    justify-self: start;
+}
+.mail-compose :nth-child(2n) {
+    justify-self: end;
+}
+
+.mail-compose .compose {
+    margin-block-start: 1em;
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    gap:1.5em;
+
+}
+
+.mail-compose .compose >*{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+
+}
+
+.mail-compose .compose :last-child{
+    border: none;
+
+}
